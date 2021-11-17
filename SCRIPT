@@ -6,13 +6,9 @@ local Button2 = Instance.new("ImageButton")
 local BtnText = Instance.new("TextLabel")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local UIGradient = Instance.new("UIGradient")
-local Button3 = Instance.new("ImageButton")
-local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-local BtnText_2 = Instance.new("TextLabel")
-local UIGradient_2 = Instance.new("UIGradient")
 local CloseButton = Instance.new("ImageButton")
-local UIGradient_3 = Instance.new("UIGradient")
-local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_2 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 local ImageButton = Instance.new("ImageButton")
 
 --Properties:
@@ -71,41 +67,6 @@ UIGradient.Offset = Vector2.new(-0.349999994, 0)
 UIGradient.Rotation = -135
 UIGradient.Parent = Button2
 
-Button3.Name = "Button 3"
-Button3.Parent = ScrollingFrame
-Button3.AnchorPoint = Vector2.new(1, 1)
-Button3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button3.BackgroundTransparency = 1.000
-Button3.Position = UDim2.new(0.945403278, 0, 0.129146606, 0)
-Button3.Size = UDim2.new(0.882225692, 0, 0.0763209537, 0)
-Button3.Image = "rbxassetid://2790382281"
-Button3.ImageColor3 = Color3.fromRGB(26, 190, 190)
-Button3.ScaleType = Enum.ScaleType.Slice
-Button3.SliceCenter = Rect.new(4, 4, 252, 252)
-
-UIAspectRatioConstraint_2.Parent = Button3
-UIAspectRatioConstraint_2.AspectRatio = 3.042
-
-BtnText_2.Name = "BtnText"
-BtnText_2.Parent = Button3
-BtnText_2.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_2.BackgroundTransparency = 1.000
-BtnText_2.BorderSizePixel = 0
-BtnText_2.Position = UDim2.new(0.498592883, 0, 0.488144726, 0)
-BtnText_2.Size = UDim2.new(0.891457498, -5, 0.468874484, -5)
-BtnText_2.Font = Enum.Font.GothamBlack
-BtnText_2.Text = "SPAWN CAR"
-BtnText_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_2.TextScaled = true
-BtnText_2.TextSize = 14.000
-BtnText_2.TextWrapped = true
-
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_2.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_2.Rotation = -135
-UIGradient_2.Parent = Button3
-
 CloseButton.Name = "CloseButton"
 CloseButton.Parent = ImageLabel
 CloseButton.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -116,13 +77,13 @@ CloseButton.Position = UDim2.new(0.628071308, 0, 0.122769609, 0)
 CloseButton.Size = UDim2.new(0.0927402824, 0, 0.0778043792, 0)
 CloseButton.Image = "http://www.roblox.com/asset/?id=7400386959"
 
-UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
-UIGradient_3.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_3.Rotation = -135
-UIGradient_3.Parent = CloseButton
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_2.Offset = Vector2.new(-0.349999994, 0)
+UIGradient_2.Rotation = -135
+UIGradient_2.Parent = CloseButton
 
-UIAspectRatioConstraint_3.Parent = CloseButton
-UIAspectRatioConstraint_3.AspectRatio = 2.000
+UIAspectRatioConstraint_2.Parent = CloseButton
+UIAspectRatioConstraint_2.AspectRatio = 2.000
 
 ImageButton.Parent = InsertedObjects
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -133,7 +94,7 @@ ImageButton.Image = "http://www.roblox.com/asset/?id=7529900564"
 
 -- Scripts:
 
-local function WNMBVKT_fake_script() -- ImageLabel.LocalScript 
+local function WITAAKC_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -211,8 +172,8 @@ local function WNMBVKT_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(WNMBVKT_fake_script)()
-local function FKNEJDG_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(WITAAKC_fake_script)()
+local function TLCI_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	while true do
@@ -230,8 +191,8 @@ local function FKNEJDG_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(FKNEJDG_fake_script)()
-local function IQBY_fake_script() -- Button2.Button7Script 
+coroutine.wrap(TLCI_fake_script)()
+local function LPGNAQ_fake_script() -- Button2.Button7Script 
 	local script = Instance.new('LocalScript', Button2)
 
 	local btn = script.Parent
@@ -274,8 +235,8 @@ local function IQBY_fake_script() -- Button2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(IQBY_fake_script)()
-local function EPPC_fake_script() -- Button2.METAB SCRIPT 
+coroutine.wrap(LPGNAQ_fake_script)()
+local function IETRTGB_fake_script() -- Button2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2)
 
 	
@@ -301,7 +262,7 @@ local function EPPC_fake_script() -- Button2.METAB SCRIPT
 	
 					for index, player in pairs(game:GetService("Players"):GetPlayers()) do
 						function teleport()
-							player.Character.HumanoidRootPart.CFrame = game.workspace["Guest 666"]["Bombo's Knife"].Handle.CFrame
+							player.Character.HumanoidRootPart.CFrame = game.workspace["Guest 666"].HumanoidRootPart.CFrame
 	
 						end
 						pcall(teleport)
@@ -311,128 +272,29 @@ local function EPPC_fake_script() -- Button2.METAB SCRIPT
 			end
 	
 		if toggle == false then 
-					_G.Toggle = false
-					
+			_G.Toggle = false
 	
-				for index, player in pairs(game:GetService("Players"):GetPlayers()) do
-					function teleport()
-						player.Character.HumanoidRootPart.CFrame = game.workspace["Guest 666"]["Bombo's Knife"].Handle.CFrame
+		for index, player in pairs(game:GetService("Players"):GetPlayers()) do
+			function teleport()
+				player.Character.HumanoidRootPart.CFrame = game.workspace["Guest 666"].HumanoidRootPart.CFrame
 	
-					end
-					pcall(teleport)
-					wait()
-				end
 			end
-					
+			pcall(teleport)
+			wait()
+		end
+	end
 	end)
 end
-coroutine.wrap(EPPC_fake_script)()
-local function WYYS_fake_script() -- Button3.ANIME 
-	local script = Instance.new('LocalScript', Button3)
-
-	local btn = script.Parent
-	local uiGradient = btn:WaitForChild("UIGradient")
-	
-	local isHovering = false
-	
-	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-	
-	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
-	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
-	
-	
-	btn.MouseEnter:Connect(function()
-		
-		isHovering = true
-		
-		gradientAddTween:Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		
-		isHovering = false
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Down:Connect(function()
-		
-		gradientRestoreTween:Play()
-	end)
-	
-	btn.MouseButton1Up:Connect(function()
-		
-		if not isHovering then
-			gradientRestoreTween:Play()
-		else
-			gradientAddTween:Play()
-		end
-	end)
-end
-coroutine.wrap(WYYS_fake_script)()
-local function GQRH_fake_script() -- Button3.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button3)
-
-	
-	
-	toggle = false
-	script.Parent.MouseButton1Down:connect(function()
-	
-		if toggle == true then 
-			toggle = false 
-		else
-			toggle = true
-		end
-		if toggle == true then 
-			script.Parent.ImageColor3 = Color3.fromRGB(60, 211, 194)
-		end
-		if toggle == false then 
-			script.Parent.ImageColor3 = Color3.fromRGB(26, 190, 190)
-		end
-	
-		if toggle == true then
-			_G.Toggle = true
-			while _G.Toggle do
-	
-	
-	
-				_G.Bin = true
-				while _G.Bin do
-					wait()
-					for i,v in pairs(workspace.Cart:GetDescendants()) do
-						if v:IsA("ClickDetector") then
-							fireclickdetector(v)
-						end
-					end
-				end
-			end
-			end
-		if toggle == false then 
-					_G.Toggle = false
-					
-			_G.Bin = true
-			while _G.Bin do
-				wait()
-				for i,v in pairs(workspace.Cart:GetDescendants()) do
-					if v:IsA("ClickDetector") then
-						fireclickdetector(v)
-					end
-				end
-			end
-					end
-	end)
-end
-coroutine.wrap(GQRH_fake_script)()
-local function JFIWNPX_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(IETRTGB_fake_script)()
+local function HHCM_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(JFIWNPX_fake_script)()
-local function LVKZ_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(HHCM_fake_script)()
+local function XAPRRVX_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -475,8 +337,8 @@ local function LVKZ_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(LVKZ_fake_script)()
-local function ETMY_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(XAPRRVX_fake_script)()
+local function CRUBJ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -484,4 +346,4 @@ local function ETMY_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(ETMY_fake_script)()
+coroutine.wrap(CRUBJ_fake_script)()
