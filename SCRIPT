@@ -1,15 +1,24 @@
 
 local InsertedObjects = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
 local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local Button2 = Instance.new("ImageButton")
 local BtnText = Instance.new("TextLabel")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local UIGradient = Instance.new("UIGradient")
-local CloseButton = Instance.new("ImageButton")
-local UIGradient_2 = Instance.new("UIGradient")
+local Button2_2 = Instance.new("ImageButton")
+local BtnText_2 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-local ImageButton = Instance.new("ImageButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local Button2_3 = Instance.new("ImageButton")
+local BtnText_3 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_3 = Instance.new("UIGradient")
+local CloseButton = Instance.new("ImageButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -17,14 +26,28 @@ InsertedObjects.Name = "InsertedObjects"
 InsertedObjects.Parent = game.CoreGui
 InsertedObjects.ResetOnSpawn = false
 
+ImageButton.Parent = InsertedObjects
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.Position = UDim2.new(0.450224787, 0, 0.00651465775, 0)
+ImageButton.Size = UDim2.new(0, 123, 0, 60)
+ImageButton.Image = "http://www.roblox.com/asset/?id=8139623167"
+
 ImageLabel.Parent = InsertedObjects
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
-ImageLabel.Position = UDim2.new(0.0394712277, 0, 0.104501605, 0)
-ImageLabel.Size = UDim2.new(0, 755, 0, 492)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=7402946493"
+ImageLabel.Size = UDim2.new(0, 1367, 0, 624)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=8139799244"
+ImageLabel.ScaleType = Enum.ScaleType.Tile
 
-ScrollingFrame.Parent = ImageLabel
+ImageLabel_2.Parent = InsertedObjects
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.450055182, 0, 0.18104884, 0)
+ImageLabel_2.Size = UDim2.new(0, 755, 0, 492)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=7402946493"
+
+ScrollingFrame.Parent = ImageLabel_2
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollingFrame.BackgroundTransparency = 1.000
@@ -67,8 +90,78 @@ UIGradient.Offset = Vector2.new(-0.349999994, 0)
 UIGradient.Rotation = -135
 UIGradient.Parent = Button2
 
+Button2_2.Name = "Button 2"
+Button2_2.Parent = ScrollingFrame
+Button2_2.AnchorPoint = Vector2.new(1, 1)
+Button2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button2_2.BackgroundTransparency = 1.000
+Button2_2.Position = UDim2.new(0.945403278, 0, 0.128130347, 0)
+Button2_2.Size = UDim2.new(0.882225692, 0, 0.0763209537, 0)
+Button2_2.Image = "rbxassetid://2790382281"
+Button2_2.ImageColor3 = Color3.fromRGB(26, 190, 190)
+Button2_2.ScaleType = Enum.ScaleType.Slice
+Button2_2.SliceCenter = Rect.new(4, 4, 252, 252)
+
+BtnText_2.Name = "BtnText"
+BtnText_2.Parent = Button2_2
+BtnText_2.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_2.BackgroundTransparency = 1.000
+BtnText_2.BorderSizePixel = 0
+BtnText_2.Position = UDim2.new(0.498592883, 0, 0.550041258, 0)
+BtnText_2.Size = UDim2.new(0.891457498, -5, 0.59266752, -5)
+BtnText_2.Font = Enum.Font.GothamBlack
+BtnText_2.Text = "GIANT"
+BtnText_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_2.TextScaled = true
+BtnText_2.TextSize = 5.000
+BtnText_2.TextWrapped = true
+
+UIAspectRatioConstraint_2.Parent = Button2_2
+UIAspectRatioConstraint_2.AspectRatio = 3.042
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_2.Offset = Vector2.new(-0.349999994, 0)
+UIGradient_2.Rotation = -135
+UIGradient_2.Parent = Button2_2
+
+Button2_3.Name = "Button 2"
+Button2_3.Parent = ScrollingFrame
+Button2_3.AnchorPoint = Vector2.new(1, 1)
+Button2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button2_3.BackgroundTransparency = 1.000
+Button2_3.Position = UDim2.new(0.945403278, 0, 0.192154735, 0)
+Button2_3.Size = UDim2.new(0.882225692, 0, 0.0763209537, 0)
+Button2_3.Image = "rbxassetid://2790382281"
+Button2_3.ImageColor3 = Color3.fromRGB(26, 190, 190)
+Button2_3.ScaleType = Enum.ScaleType.Slice
+Button2_3.SliceCenter = Rect.new(4, 4, 252, 252)
+
+BtnText_3.Name = "BtnText"
+BtnText_3.Parent = Button2_3
+BtnText_3.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_3.BackgroundTransparency = 1.000
+BtnText_3.BorderSizePixel = 0
+BtnText_3.Position = UDim2.new(0.498592883, 0, 0.550041258, 0)
+BtnText_3.Size = UDim2.new(0.891457498, -5, 0.59266752, -5)
+BtnText_3.Font = Enum.Font.GothamBlack
+BtnText_3.Text = "FLY | E |"
+BtnText_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_3.TextScaled = true
+BtnText_3.TextSize = 5.000
+BtnText_3.TextWrapped = true
+
+UIAspectRatioConstraint_3.Parent = Button2_3
+UIAspectRatioConstraint_3.AspectRatio = 3.042
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_3.Offset = Vector2.new(-0.349999994, 0)
+UIGradient_3.Rotation = -135
+UIGradient_3.Parent = Button2_3
+
 CloseButton.Name = "CloseButton"
-CloseButton.Parent = ImageLabel
+CloseButton.Parent = ImageLabel_2
 CloseButton.AnchorPoint = Vector2.new(0.5, 0.5)
 CloseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CloseButton.BackgroundTransparency = 1.000
@@ -77,25 +170,34 @@ CloseButton.Position = UDim2.new(0.628071308, 0, 0.122769609, 0)
 CloseButton.Size = UDim2.new(0.0927402824, 0, 0.0778043792, 0)
 CloseButton.Image = "http://www.roblox.com/asset/?id=7400386959"
 
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
-UIGradient_2.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_2.Rotation = -135
-UIGradient_2.Parent = CloseButton
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 136, 255))}
+UIGradient_4.Offset = Vector2.new(-0.349999994, 0)
+UIGradient_4.Rotation = -135
+UIGradient_4.Parent = CloseButton
 
-UIAspectRatioConstraint_2.Parent = CloseButton
-UIAspectRatioConstraint_2.AspectRatio = 2.000
-
-ImageButton.Parent = InsertedObjects
-ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton.BackgroundTransparency = 1.000
-ImageButton.Position = UDim2.new(0.416326493, 0, 0, 0)
-ImageButton.Size = UDim2.new(0, 123, 0, 60)
-ImageButton.Image = "http://www.roblox.com/asset/?id=7529900564"
+UIAspectRatioConstraint_4.Parent = CloseButton
+UIAspectRatioConstraint_4.AspectRatio = 2.000
 
 -- Scripts:
 
-local function WITAAKC_fake_script() -- ImageLabel.LocalScript 
-	local script = Instance.new('LocalScript', ImageLabel)
+local function PKCHBON_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.ImageLabel.Visible = not script.Parent.Parent.ImageLabel.Visible
+	end)
+	
+end
+coroutine.wrap(PKCHBON_fake_script)()
+local function SQIWGZE_fake_script() -- ImageLabel.Script 
+	local script = Instance.new('Script', ImageLabel)
+
+	wait(4)
+	script.Parent:Destroy()
+end
+coroutine.wrap(SQIWGZE_fake_script)()
+local function AWFCOXU_fake_script() -- ImageLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_2)
 
 	
 	local UIS = game:GetService('UserInputService')
@@ -172,9 +274,9 @@ local function WITAAKC_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(WITAAKC_fake_script)()
-local function TLCI_fake_script() -- ImageLabel.LocalScript 
-	local script = Instance.new('LocalScript', ImageLabel)
+coroutine.wrap(AWFCOXU_fake_script)()
+local function HCWMQ_fake_script() -- ImageLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_2)
 
 	while true do
 		script.Parent.BackgroundColor3 = Color3.new (255, 176, 0)
@@ -191,8 +293,8 @@ local function TLCI_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(TLCI_fake_script)()
-local function LPGNAQ_fake_script() -- Button2.Button7Script 
+coroutine.wrap(HCWMQ_fake_script)()
+local function JBAY_fake_script() -- Button2.Button7Script 
 	local script = Instance.new('LocalScript', Button2)
 
 	local btn = script.Parent
@@ -235,8 +337,8 @@ local function LPGNAQ_fake_script() -- Button2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(LPGNAQ_fake_script)()
-local function IETRTGB_fake_script() -- Button2.METAB SCRIPT 
+coroutine.wrap(JBAY_fake_script)()
+local function TXSI_fake_script() -- Button2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2)
 
 	
@@ -285,16 +387,256 @@ local function IETRTGB_fake_script() -- Button2.METAB SCRIPT
 	end
 	end)
 end
-coroutine.wrap(IETRTGB_fake_script)()
-local function HHCM_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(TXSI_fake_script)()
+local function MVKC_fake_script() -- Button2_2.Button7Script 
+	local script = Instance.new('LocalScript', Button2_2)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientAddTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientAddTween:Play()
+		end
+	end)
+end
+coroutine.wrap(MVKC_fake_script)()
+local function BKRS_fake_script() -- Button2_2.METAB SCRIPT 
+	local script = Instance.new('LocalScript', Button2_2)
+
+	
+	script.Parent.MouseButton1Down:connect(function()
+	
+	
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local Character = LocalPlayer.Character
+		local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+	
+		function rm()
+			for i,v in pairs(Character:GetDescendants()) do
+				if v:IsA("BasePart") then
+					if v.Name == "Handle" or v.Name == "Head" then
+						if Character.Head:FindFirstChild("OriginalSize") then
+							Character.Head.OriginalSize:Destroy()
+						end
+					else
+						for i,cav in pairs(v:GetDescendants()) do
+							if cav:IsA("Attachment") then
+								if cav:FindFirstChild("OriginalPosition") then
+									cav.OriginalPosition:Destroy()  
+								end
+							end
+						end
+						v:FindFirstChild("OriginalSize"):Destroy()
+						if v:FindFirstChild("AvatarPartScaleType") then
+							v:FindFirstChild("AvatarPartScaleType"):Destroy()
+						end
+					end
+				end
+			end
+		end
+	
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+		wait(1)
+	
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+		wait(1)
+	
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+		wait(1)
+	
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+		wait(1)
+	
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("HeadScale"):Destroy()
+		wait(1)
+		end)
+end
+coroutine.wrap(BKRS_fake_script)()
+local function NLWLRR_fake_script() -- Button2_3.Button7Script 
+	local script = Instance.new('LocalScript', Button2_3)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientAddTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientAddTween:Play()
+		end
+	end)
+end
+coroutine.wrap(NLWLRR_fake_script)()
+local function DHCVJV_fake_script() -- Button2_3.METAB SCRIPT 
+	local script = Instance.new('LocalScript', Button2_3)
+
+	
+	script.Parent.MouseButton1Down:connect(function()
+	
+		repeat wait()
+		until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("UpperTorso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+		local mouse = game.Players.LocalPlayer:GetMouse()
+		repeat wait() until mouse
+		local plr = game.Players.LocalPlayer
+		local UpperTorso = plr.Character.UpperTorso
+		local flying = true
+		local deb = true
+		local ctrl = {f = 0, b = 0, l = 0, r = 0}
+		local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+		local maxspeed = 50
+		local speed = 0
+	
+		function Fly()
+			local bg = Instance.new("BodyGyro", UpperTorso)
+			bg.P = 9e4
+			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+			bg.cframe = UpperTorso.CFrame
+			local bv = Instance.new("BodyVelocity", UpperTorso)
+			bv.velocity = Vector3.new(0,0.1,0)
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+			repeat wait()
+				plr.Character.Humanoid.PlatformStand = true
+				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+					speed = speed+.5+(speed/maxspeed)
+					if speed > maxspeed then
+						speed = maxspeed
+					end
+				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+					speed = speed-1
+					if speed < 0 then
+						speed = 0
+					end
+				end
+				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+				else
+					bv.velocity = Vector3.new(0,0.1,0)
+				end
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+			until not flying
+			ctrl = {f = 0, b = 0, l = 0, r = 0}
+			lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			speed = 0
+			bg:Destroy()
+			bv:Destroy()
+			plr.Character.Humanoid.PlatformStand = false
+		end
+		mouse.KeyDown:connect(function(key)
+			if key:lower() == "e" then
+				if flying then flying = false
+				else
+					flying = true
+					Fly()
+				end
+			elseif key:lower() == "w" then
+				ctrl.f = 1
+			elseif key:lower() == "s" then
+				ctrl.b = -1
+			elseif key:lower() == "a" then
+				ctrl.l = -1
+			elseif key:lower() == "d" then
+				ctrl.r = 1
+			end
+		end)
+		mouse.KeyUp:connect(function(key)
+			if key:lower() == "w" then
+				ctrl.f = 0
+			elseif key:lower() == "s" then
+				ctrl.b = 0
+			elseif key:lower() == "a" then
+				ctrl.l = 0
+			elseif key:lower() == "d" then
+				ctrl.r = 0
+			end
+	
+		end)
+		Fly()
+		end)
+end
+coroutine.wrap(DHCVJV_fake_script)()
+local function BOHDA_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(HHCM_fake_script)()
-local function XAPRRVX_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(BOHDA_fake_script)()
+local function WEBT_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -337,13 +679,4 @@ local function XAPRRVX_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(XAPRRVX_fake_script)()
-local function CRUBJ_fake_script() -- ImageButton.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.ImageLabel.Visible = not script.Parent.Parent.ImageLabel.Visible
-	end)
-	
-end
-coroutine.wrap(CRUBJ_fake_script)()
+coroutine.wrap(WEBT_fake_script)()
